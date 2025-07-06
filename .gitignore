@@ -1,0 +1,27 @@
+# Ignore VS Code settings
+.vscode/
+
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE settings (Eclipse, IntelliJ, NetBeans)
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+nbproject/
