@@ -3,8 +3,6 @@
 A powerful **FastAPI-based REST API** for managing hotel rooms, offering full CRUD (Create, Read, Update, Delete) operations with **MongoDB integration**. 🌟  
 This project is perfect for hotel management systems and provides a **scalable, high-performance backend solution**. 🚀  
 
----
-
 ## 📑 Table of Contents
 - [✨ Features](#-features)
 - [📋 Prerequisites](#-prerequisites)
@@ -15,8 +13,6 @@ This project is perfect for hotel management systems and provides a **scalable, 
 - [🤝 Contributing](#-contributing)
 - [📬 Contact](#-contact)
 
----
-
 ## ✨ Features
 
 - **CRUD Operations**: Seamlessly create, retrieve, update, and delete hotel room data. 🛠️  
@@ -25,15 +21,11 @@ This project is perfect for hotel management systems and provides a **scalable, 
 - **Asynchronous**: Utilizes async/await for efficient and responsive request handling. ⏱️  
 - **Interactive Docs**: Built-in Swagger UI for easy API exploration. 📚  
 
----
-
 ## 📋 Prerequisites
 
 - Python 3.8+ 🐍  
 - MongoDB (local or remote instance) 🖥️  
 - pip (for installing dependencies) 📦  
-
----
 
 ## ⚙️ Installation
 
