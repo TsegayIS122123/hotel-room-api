@@ -94,9 +94,6 @@ Let’s build something amazing together! 🚀
 
 📬 Contact
 GitHub: TsegayIS122123
-
-Email: tsegayassefa27@gmail.com
-
-LinkedIn: Tsegay Assefa
-
-Portfolio: tsegayassefa.github.io
+📧 Email: tsegayassefa27@gmail.com
+💼 LinkedIn: linkedin.com/in/tsegay-assefa-95a397336
+🌐 Portfolio: tsegayassefa.github.io
