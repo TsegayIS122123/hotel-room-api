@@ -64,6 +64,8 @@ async def get_room(room_id: str):
             detail="Internal server error"
         )
 
+
+
 @router.put("/{room_id}", response_model=StandardResponse[RoomResponse])
 async def update_room(room_id: str, room: RoomUpdate):
     try:
@@ -73,6 +75,8 @@ async def update_room(room_id: str, room: RoomUpdate):
             message="Room updated successfully",
             data=updated_room
         )
+
+        
     except HTTPException:
         raise
     except Exception as e:
