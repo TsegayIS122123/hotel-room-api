@@ -41,8 +41,6 @@ async def get_rooms(
             skip=skip,
             limit=limit
         )
-
-
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -58,8 +56,6 @@ async def get_room(room_id: str):
             message="Room retrieved successfully",
             data=room
         )
-
-        
     except HTTPException:
         raise
     except Exception as e:
@@ -67,8 +63,6 @@ async def get_room(room_id: str):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Internal server error"
         )
-
-
 
 @router.put("/{room_id}", response_model=StandardResponse[RoomResponse])
 async def update_room(room_id: str, room: RoomUpdate):
@@ -79,8 +73,6 @@ async def update_room(room_id: str, room: RoomUpdate):
             message="Room updated successfully",
             data=updated_room
         )
-
-
     except HTTPException:
         raise
     except Exception as e:
