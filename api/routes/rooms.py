@@ -41,6 +41,8 @@ async def get_rooms(
             skip=skip,
             limit=limit
         )
+
+
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -56,6 +58,8 @@ async def get_room(room_id: str):
             message="Room retrieved successfully",
             data=room
         )
+
+        
     except HTTPException:
         raise
     except Exception as e:
@@ -76,7 +80,7 @@ async def update_room(room_id: str, room: RoomUpdate):
             data=updated_room
         )
 
-        
+
     except HTTPException:
         raise
     except Exception as e:
